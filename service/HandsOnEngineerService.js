@@ -10,7 +10,7 @@
  * proposalID Integer this is the unique identifier of the proposal
  * returns proposals_proposalID_body
  **/
-exports."changeStatus" = function(body,userID,proposalID) {
+exports.changeStatus = function(body,userID,proposalID) {
   return new Promise(function(resolve, reject) {
     var examples = {};
     examples['application/json'] = {
